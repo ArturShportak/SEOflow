@@ -1,0 +1,71 @@
+body {
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.header__box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.nav {
+    
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.intro {
+    max-width: 100%;
+    height: 100vh;
+    background-color: #6425CB;
+    z-index: -1;
+}
+
+.nav__content-box {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.phone__number {
+    font-size: 16px;
+    color: #fff;
+}
+
+.mail {
+    font-size: 15px;
+    color: #fff;
+}
+
+.nav__content-box-low {
+    width: 1200px;
+    height: 94px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    
+} 
+.nav__link {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav__link__ {
+    padding: 20px;
+    text-decoration: none;
+}
