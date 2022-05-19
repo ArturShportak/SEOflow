@@ -5,6 +5,8 @@ body {
     margin: 0;
 }
 
+h1,h2,h3 {margin: 0px; font-size: 10pt;}
+
 .header__box {
     position: absolute;
     top: 0;
@@ -31,6 +33,7 @@ body {
 
 .nav__content-box {
     width: 1200px;
+    height: 68px;
     display: flex;
     margin: auto;
     flex-direction: row;
@@ -38,14 +41,27 @@ body {
     align-items: center;
 
 }
+
+.nav__contacts {
+    display: flex;
+    align-items: center;
+}
 .phone__number {
+    font-weight: 300;
+    padding-left: 13px;
     font-size: 16px;
     color: #fff;
 }
 
 .mail {
+    font-weight: 300;
+    padding-left: 13px;
     font-size: 15px;
     color: #fff;
+}
+
+.nav__contacts__icon__mail {
+    margin-left: 25px;
 }
 
 .nav__content-box-low {
@@ -53,19 +69,88 @@ body {
     height: 94px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #fff;
     border-radius: 10px;
     
 } 
+
+.nav__contacts__icon__facebook,
+.nav__contacts__icon__twitter,
+.nav__contacts__icon__in,
+.nav__contacts__icon_pinterest {
+    padding: 10px;
+}
+
+.nav__logo {
+    margin-left: 16px;
+    margin-right: 160px;
+    font-weight: 700;
+}
 .nav__link {
     display: flex;
     justify-content: space-between;
     list-style: none;
+
+    
 }
 
 .nav__link__ {
-    padding: 20px;
+    font-weight:300;
+    padding-left: 33px;
     text-decoration: none;
+    color:#232425;
 }
+
+.nav__btn {
+    margin-left: 200px;
+    width: 100px;
+    height: 41px;
+    border: 0px;
+    border-radius: 32px;
+    background-color: #F4AB00;
+    color: #fff;
+
+}
+
+.intro{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__area {
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.intro__title {
+    margin-top: 200px;
+    color: #fff;
+}
+
+.intro__title__1,
+.intro__title__2,
+.intro__title__3 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.intro__title__2 {
+    color: #F4AB00;
+}
+
+.description {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 409px;
+    color: #fff;
+}
+
