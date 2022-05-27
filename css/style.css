@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-h1,h2,h3 {margin: 0px; font-size: 10pt;}
+h1,h2,h3 {margin: 0px; }
 
 .header__box {
     position: absolute;
@@ -98,7 +98,7 @@ h1,h2,h3 {margin: 0px; font-size: 10pt;}
 
 .nav__link__ {
     font-weight:300;
-    padding-left: 33px;
+    margin-left: 33px;
     text-decoration: none;
     color:#232425;
 }
@@ -181,21 +181,105 @@ h1,h2,h3 {margin: 0px; font-size: 10pt;}
 }
 
 .about {
-display: block;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
 
 }
 
 .img__transition {
-    margin: -50;
+    position: relative;
     width: 100%;
     z-index: 1;
 }
 
 .content__about {
-    max-width: 1160px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: 518px;
+    margin-top: 250px;
     background-color: #fff;
-    border: solid 2px coral;
     border-radius: 10px;
+    box-shadow: 0 22px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    position: absolute;
     z-index: 10;
+}
+
+.left__box{
+    width: 470px;
+    margin-top: 22px;
+
+}
+
+.title__content__about {
+    color: #F4AB00;
+    font-size: 19px;
+
+}
+
+.subtitle__content__about {
+    margin-top: 20px;
+    font-size: 42px;
+    font-weight: 300;
+    color: #2C1258;
+}
+
+.box__desc {
+    font-size: 18px;
+    font-weight: 200;
+    color: #604B83;
+    line-height: 1.5;
+}
+
+.right__box {
+    margin-left: 96px;
+    width: aut;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first__bloc-title,.second__bloc-title {
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 300;
+    color: #2C1258;
+}
+
+
+.first__bloc-content,.second__bloc-content {
+    margin: 10px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.first__bloc-info,.second__bloc-info {
+    font-weight: 200;
+font-size: 15px;
+    color: #604B83;
+    line-height: 2;
+}
+
+.box__first-bloc,.box__second-bloc {
+    width: auto
+    ;
+}
+
+.img__in__right-box {
+    margin-right: 24px;
+    width: 86px;
+    height: 86px;
+}
+
+.results__box-content {
+    width: 1200px;
+    margin-top: 400px;
 }
